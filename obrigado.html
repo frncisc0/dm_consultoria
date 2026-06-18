@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/icone.png">
+    <title>Mensagem Enviada | DM Consultoria</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --verde: #0B3D2E;
+            --ouro: #B08D57;
+            --off: #F5F5F2;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #0B3D2E, #143F33);
+            font-family: 'Inter', sans-serif;
+            padding: 2rem;
+        }
+
+        .card {
+            max-width: 700px;
+            background: rgba(255, 255, 255, .04);
+            border: 1px solid rgba(255, 255, 255, .08);
+            padding: 4rem;
+            text-align: center;
+            border-radius: 6px;
+        }
+
+        .icon {
+            font-size: 4rem;
+            color: var(--ouro);
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            color: var(--off);
+            font-size: 4rem;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        h1 span {
+            color: var(--ouro);
+            font-style: italic;
+        }
+
+        p {
+            color: rgba(255, 255, 255, .8);
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            display: block;
+            width: max-content;
+            margin: 32px auto 0;
+            padding: 16px 32px;
+            border: 1px solid var(--ouro);
+            color: var(--ouro);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: .15em;
+            transition: .3s;
+        }
+
+        .btn:hover {
+            background: var(--ouro);
+            color: var(--verde);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="icon">✓</div>
+
+        <h1>Mensagem <span>enviada</span></h1>
+
+        <p>
+            Obrigado pelo contato.<br><br>
+
+            Sua solicitação foi recebida com sucesso e já está sendo analisada pela equipe da DM Consultoria.
+
+            Em breve entraremos em contato para agendar uma reunião.
+
+
+            <a href="index.html" class="btn">
+                Voltar ao site
+            </a>
+
+    </div>
+
+</body>
+
+</html>

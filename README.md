@@ -2,10 +2,13 @@
 
 - Planejamento da arquitetura do site
 - Desenvolvimento front-end
-- Implementação de formulários e integrações
+- Implementação de formulários de contato
+- Integração com Web3Forms
+- Integração com Whatsapp
 - Otimização para SEO
-- Configuração de hospedagem e domínio
-- Publicação e manutenção do projeto
+- Configuração de domínio e DNS
+- Deploy e hospedagem em Cloudflare Pages
+- Manutenção e evolução contínua da plataforma
   
 # DM Consultoria
 
@@ -13,7 +16,7 @@ Site institucional desenvolvido para a DM Consultoria, empresa especializada em 
 
 ## Objetivo
 
-Desenvolver uma presença digital profissional que transmita credibilidade, autoridade e proximidade com o setor agroindustrial, facilitando o contato com potenciais clientes e fortalecendo a marca da consultoria.
+Desenvolver uma presença digital profissional capaz de transmitir credibilidade, autoridade e proximidade com o setor agroindustrial, fortalecendo a marca da consultoria e facilitando o contato com potenciais clientes.
 
 ## Funcionalidades
 
@@ -33,7 +36,8 @@ Desenvolver uma presença digital profissional que transmita credibilidade, auto
 - JavaScript
 - Web3Forms
 - GitHub
-- Netlify (deploy)
+- Cloudflarepages
+- Cloudflare DNS
 
 ## Estrutura do Projeto
 
@@ -53,6 +57,7 @@ dm-consultoria
 - Desenvolvimento focado em conversão de contatos
 - Estrutura preparada para expansão futura com artigos e conteúdos estratégicos
 - Boas práticas de SEO e performance
+- Hospedagem em infraestrutura global Cloudflare
 
 ## Autor
 
@@ -65,4 +70,4 @@ GitHub: https://github.com/frncisc0
 
 ## Status
 
-🚀 Em produção
+🚀 Projeto em produção e em evolução contínua.
